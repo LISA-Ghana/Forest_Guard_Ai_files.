@@ -66,10 +66,7 @@ The bottle neck features extracted from the vgg16 model include :
 ## Repo Tree
 
 Forest_Guard_Ai files
-	├───Datasets
-		├───ESC-50_Mel-Spectogram_dataset
-		├───ESC-50_WavePlot_dataset.zip
-		└───ESC-50_WavePlot_dataset_renamed.zip
+	
 
 	├───labels_and_classes-csv
 		├───ESC-50_Mel-Spectogram_dataset_Meta_data.csv
