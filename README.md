@@ -12,8 +12,8 @@
 # This Repo contains four note books:
 
 ## Notebook_1:-https://colab.research.google.com/drive/1cUb_4mp9zQujwEs75m7ZVRKIzXieBqsq?usp=sharing
-This jupyter notebook involves a feature engineering approach to generate two distict datasets
-to help us in our modelling processing in an attempt to solve the challenge of illgal logging activities
+This jupyter notebook involves a feature engineering approach to generate two distinct datasets
+to help us in our modelling process in an attempt to solve the challenge of illgal logging activities
 Generated Datasets include:
 1-Esc-50 waveplot dataset
 2-Esc-50 mel spectogram dataset
@@ -91,9 +91,9 @@ Forest_Guard_Ai files
 	└───final_iteration(Best_performing).ipynb
 
 we provide a converted/optimized tensorflowlite format of our model as well as a h5 format of our model 
-with a inference pipline script at the end of the notebook to enable one test the model on ther audio files 
+with a inference pipline script at the end of the notebook to enable one test the model on their audio files 
 
-we would like to express our sincere gratitude to the members of team Lisa as wellas the 
+we would like to express our sincere gratitude to the members of team Lisa as well as  the 
 mentors ,host of this competition for being resourceful in our journey to seeing this through
 
 ## References
