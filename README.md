@@ -2,12 +2,12 @@
 # Project Write-Up
 
 # Datasets used -
-### Primary:Esc-50 dataset:-https://github.com/karoldvl/ESC-50/archive/master.zip 
-###  Secondary dataset for sampled audio for testing purposes:-https://research.google.com/audioset/
+###  Primary:Esc-50 dataset:-https://github.com/karoldvl/ESC-50/archive/master.zip 
+## #  Secondary dataset for sampled audio for testing purposes:-https://research.google.com/audioset/
 
 # Datasets (2)variants generated  -
-###   i-Esc-50 waveplot/amplitude portfolio dataset
-###   ii-ESC-50 MelSpectogram portfolio dataset
+###  i-Esc-50 waveplot/amplitude portfolio dataset
+###    ii-ESC-50 MelSpectogram portfolio dataset
 
 # This Repo contains four note books:
 
@@ -49,15 +49,15 @@ we finally train and test our model which has a far better variance compared to 
 Per class accuracy metrics were evaluated on the model with the essential classes performig in a standard capacity.
 The bottle neck features extracted from the vgg16 model include :
 
-# Train
-### train_data.pkl
-### train_labels.pkl
-# Test
-### test_data.pkl
-### test_labels.pkl
-# Validation
-### validation_data.pkl
-### validation_labels.pkl
+##  Train
+####  train_data.pkl
+####  train_labels.pkl
+##  Test
+####  test_data.pkl
+####  test_labels.pkl
+##  Validation
+####  validation_data.pkl
+####  validation_labels.pkl
 
 ## Models in this repo include:
 ### 1-illegal_logging_classifier_model.h5(Keras variant)
