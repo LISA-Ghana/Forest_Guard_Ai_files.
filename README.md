@@ -1,4 +1,4 @@
-# Aicommons - Ai4good competition (Edge based early dection and alerting systems for forest-Guards) submission by team Lisa
+# Aicommons - Ai4good competition (Edge based early detection and alerting systems for forest-Guards) submission by team Lisa
 # Project Write-Up
 
 ## Repo Tree
