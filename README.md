@@ -28,17 +28,24 @@
 		├───train_data.pkl
 		├───validation_labels.pkl
 		└───validation_data.pkl
+		
+	├───forest-guard-ai4good-firebase-adminsdk-1fw9p-232da17716.json
+	
+	└───Testing_final_model_Team Lisa.ipynb
 
 
 
+
+## make a copy of this Notebook to run sample test in colab,it contains an end to end pipeline with instructions to run inference on sound inputs
+###  Testing_final_notebok - https://colab.research.google.com/drive/1IuMvh0sCHniIwgHHNCUNXeH3SWuscEp0?usp=sharing
 
 ## Datasets used -
 ###  Primary:Esc-50 dataset:-https://github.com/karoldvl/ESC-50/archive/master.zip 
-## #  Secondary dataset for sampled audio for testing purposes:-https://research.google.com/audioset/
+###  Secondary dataset for sampled audio for testing purposes:-https://research.google.com/audioset/
 
 ## Datasets (2)variants generated  -
 ###  i-Esc-50 waveplot/amplitude portfolio dataset
-###    ii-ESC-50 MelSpectogram portfolio dataset
+###  ii-ESC-50 MelSpectogram portfolio dataset
 
 # This Repo contains four note books:
 
