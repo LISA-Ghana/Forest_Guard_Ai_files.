@@ -1,4 +1,4 @@
-# Aicommons Ai4good competition by submission by team Lisa
+# Aicommons - Ai4good competition (Edge based early dection and alerting systems for forest-Guards) submission by team Lisa
 # Project Write-Up
 
 ## Repo Tree
@@ -37,7 +37,7 @@
 
 
 ## make a copy of this Notebook to run sample test in colab,it contains an end to end pipeline with instructions to run inference on sound inputs
-###  Testing_final_notebok - https://colab.research.google.com/drive/1IuMvh0sCHniIwgHHNCUNXeH3SWuscEp0?usp=sharing
+###  Testing_final_notebo0k - https://colab.research.google.com/drive/1IuMvh0sCHniIwgHHNCUNXeH3SWuscEp0?usp=sharing
 
 ## Datasets used -
 	###  Primary:Esc-50 dataset:-https://github.com/karoldvl/ESC-50/archive/master.zip 
