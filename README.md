@@ -1,7 +1,9 @@
 # AICommons - AI4Good Competition 
-## Edge-based early detection and alerting systems for Forest Guards - Team Lisa
+## Edge-Based Early Detection and Alerting Systems for Forest Guards - Team Lisa
 
 <hr>
+
+#### Content
 
 [Repository Tree](#repo-tree) | [Datasets Used](#datasets-used) | [Datasets Generated](#datasets-generated) | [Notebooks](#notebooks) | [Bottleneck Features](#bottleneck-features) | [Models](#models) | [Mobile App Client](#mobile-app-client) | [Team Members](#team-members) | [References](#references)
 
@@ -52,28 +54,28 @@
 
 ## Notebooks
 
-1. **Notebook 1**: [Open In Colab](https://colab.research.google.com/drive/1cUb_4mp9zQujwEs75m7ZVRKIzXieBqsq?usp=sharing)
+1. **Notebook 1**: [Open In Colab](https://colab.research.google.com/drive/1cUb_4mp9zQujwEs75m7ZVRKIzXieBqsq?usp=sharing)  
 This notebook involves a feature engineering approach to generate two distinct datasets
 to help us in the modelling process in an attempt to solve the challenge of illegal logging activities in the forests.
 Generated Datasets include:
 	- ESC-50 Waveplot dataset
 	- ESC-50 MelSpectogram dataset
 
-2. **Notebook 2**: [Open In Colab](https://colab.research.google.com/drive/1seJqPEI2YLDNASsPrShS85QRSKIxrHvK?usp=sharing)
+2. **Notebook 2**: [Open In Colab](https://colab.research.google.com/drive/1seJqPEI2YLDNASsPrShS85QRSKIxrHvK?usp=sharing)  
 The first iteration by building a base Convolutional Neural Network to classify 
 audio waveplot/amplitude profile.
 Dataset used in this notebook includes the Generated ESC-50 waveplot profiles of the original audio files.  
 Results from this iteration was a poor performing model with a high bias and variance between training and validation splits. In conclusion, we moved on to the melspectogram dataset to achieve a better performance after dozen hyperparameter tuning exercises.
 
-3. **Notebook 3**: [Open In Colab](https://colab.research.google.com/drive/1lN8Z5dbJYTT8Y531shL3YyFTEe93H1Kf?usp=sharing)
+3. **Notebook 3**: [Open In Colab](https://colab.research.google.com/drive/1lN8Z5dbJYTT8Y531shL3YyFTEe93H1Kf?usp=sharing)  
 In this notebook, our model performed a bit better than the previous model in notebook 2 but also displayed a high variance during training process.  
 After a dozen hyperparameter tuning and regularization, we concluded on the lack of our generated dataset not well feature-engineered enough to accommodate a generalized model.
 
-4. **Notebook 4**: [Open In Colab](https://colab.research.google.com/drive/1p7iOe5fQz6TeK1YUWbf4A5CbkgsSdn_S?usp=sharing)
+4. **Notebook 4**: [Open In Colab](https://colab.research.google.com/drive/1p7iOe5fQz6TeK1YUWbf4A5CbkgsSdn_S?usp=sharing)  
 We adopted an advanced feature engineering approach by converting our audio files to a concatenated stack of 3 channels based on three main operations to generate feature maps.
 This includes splitting the 5 second audio clips into 5 folds increasing the dataset from 2000 to 10000 audio files. We combined three feature maps which include the Mel spectogram, log-scaled spectogram and the delta mel-scaled spectogram to form one feature map profile for an audio clip.
 
-5. **Notebook 5**: [Open In Colab](https://colab.research.google.com/drive/1IuMvh0sCHniIwgHHNCUNXeH3SWuscEp0?usp=sharing)
+5. **Notebook 5**: [Open In Colab](https://colab.research.google.com/drive/1IuMvh0sCHniIwgHHNCUNXeH3SWuscEp0?usp=sharing)  
 Contains an end to end pipeline to run simulated test on the model. Currently it is performing averagely.
 
 We then iterated over a number of pre-trained CNN to serve as feature extracts but amongst the lot, vgg16 performed very well on the ImageNet weights.
@@ -85,15 +87,15 @@ We finally trained and tested our model which has a far better variance compared
 Per class accuracy metrics were evaluated on the model with the essential classes performing in a standard capacity.
 The bottle neck features extracted from the vgg16 model include :
 
-* Train
+* Train  
 [train_data.pkl](https://github.com/LISA-Ghana/forest_guard_ai/blob/master/pickle_files/train_data.pkl)  
 [train_labels.pkl](https://github.com/LISA-Ghana/forest_guard_ai/blob/master/pickle_files/train_labels.pkl)
 
-* Test
+* Test  
 [test_data.pkl](https://github.com/LISA-Ghana/forest_guard_ai/blob/master/pickle_files/test_data.pkl)  
 [test_labels.pkl](https://github.com/LISA-Ghana/forest_guard_ai/blob/master/pickle_files/test_data.pkl)
 
-* Validation
+* Validation  
 [validation_data.pkl](https://github.com/LISA-Ghana/forest_guard_ai/blob/master/pickle_files/validation_data.pkl)  
 [validation_labels.pkl](https://github.com/LISA-Ghana/forest_guard_ai/blob/master/pickle_files/validation_labels.pkl)
 
@@ -121,7 +123,7 @@ When the prediction is sent to the database, deployed cloud functions trigger no
 | Appau Roberta | UI/UX Designer | N/A |  
 <br>
 
-> We would like to express our sincere gratitude to all members of Team Lisa as well as  the mentors, host of this competition for being resourceful in our journey to seeing this through.
+> #### We would like to express our sincere gratitude to all members of Team Lisa as well as  the mentors, host of this competition for being resourceful in our journey to seeing this through.
 
 ## References
 * [Hands-On Mathematics for Deep Learning - Packt publishing](https://www.packtpub.com/product/hands-on-mathematics-for-deep-learning/9781838647292)
