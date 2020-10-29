@@ -101,7 +101,7 @@ The bottle neck features extracted from the vgg16 model include :
 	  test_labels.pkl
 #####  Validation
 	 validation_data.pkl
-	  validation_labels.pkl
+	 validation_labels.pkl
 
 ## Models in this repo include:
 	 1-illegal_logging_classifier_model.h5(Keras variant)
