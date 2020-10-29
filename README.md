@@ -94,18 +94,18 @@ Per class accuracy metrics were evaluated on the model with the essential classe
 The bottle neck features extracted from the vgg16 model include :
 
 #####  Train
-	#####  train_data.pkl
-	#####  train_labels.pkl
+	  train_data.pkl
+	  train_labels.pkl
 ##### Test
-	#####  test_data.pkl
-	#####  test_labels.pkl
+	  test_data.pkl
+	  test_labels.pkl
 #####  Validation
-	##### validation_data.pkl
-	#####  validation_labels.pkl
+	 validation_data.pkl
+	  validation_labels.pkl
 
 ## Models in this repo include:
-	### 1-illegal_logging_classifier_model.h5(Keras variant)
-	### 2-ForestAI.tflite (tensorflowlite variant)
+	 1-illegal_logging_classifier_model.h5(Keras variant)
+	 2-ForestAI.tflite (tensorflowlite variant)
 
 we provide a converted/optimized tensorflowlite format of our model as well as a h5 format of our model 
 with a inference pipline script at the end of the notebook to enable one test the model on their audio files 
