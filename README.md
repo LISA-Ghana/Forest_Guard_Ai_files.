@@ -82,7 +82,7 @@ spectogram to form one feature map profile for an audio clip
 
 Contains an end to end pipeline to run simulated test on the model, currently it is performing averagely.More finetuning needed
 
-#####--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
 
 We then iterated over a number of pre-trained convolutional neural networks to serve as feature extractos but amongs the lot, vgg16 performed very well on the imagent weights 
 and finally , we clipped off the muliti linear perceptron classifier layer and architected a sequential model with regularized dense and units to enable us train a calssifier
