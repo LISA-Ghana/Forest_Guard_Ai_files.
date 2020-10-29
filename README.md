@@ -63,18 +63,26 @@ The bottle neck features extracted from the vgg16 model include :
 ### 1-illegal_logging_classifier_model.h5(Keras variant)
 ### 2-ForestAI.tflite (tensorflowlite variant)
 
+# Mobile App Client
+The android apk can be found in the `apk/forest_guard_client.apk` folder. You can click [here](https://github.com/LISA-Ghana/forest_guard_ai/raw/master/apk/forest_guard_client.apk) to download.  
+After installing the app, log in with `AgentID: 1234` and `Forest ID: 1`.  
+When the prediction is sent to the database, deployed cloud functions trigger notifications for Human/Illegal (Chainsaw, etc) activity.
+
 ## Repo Tree
 
-Forest_Guard_Ai files
 	
+	├───apk
+		└───forest_guard_client.apk
 
 	├───labels_and_classes-csv
 		├───ESC-50_Mel-Spectogram_dataset_Meta_data.csv
 		├───ESC-50_WavePlot_dataset_Meta_data.csv
 		└───labels_and_target_classes(ESC50).csv
+	
 	├───Models
 		├───ForestAI.tflite
 		└───illegal_logging_classifier_model.h5
+	
 	├───Notebooks
 		├───Dataset_exploration_and__Generation_by_Author_Appau_Ernest.ipynb
 		├───iteration1_Building_a_CNN_model_to_classify_audio_events_from_the_ESC_50_WavePlot_dataset.ipynb
@@ -95,6 +103,16 @@ with a inference pipline script at the end of the notebook to enable one test th
 
 we would like to express our sincere gratitude to the members of team Lisa as well as  the 
 mentors ,host of this competition for being resourceful in our journey to seeing this through
+
+## Team Members
+| Name | Role | Profile |
+| :--- | :--- | :--- | :--- |
+| Appau Ernest (Lead) | AI Model Development/Deployment | [Github](https://github.com/kappernie) / [LinkedIn](https://www.linkedin.com/in/appauernestkofimensah/) |
+| Debrah Kwesi Buabeng | Mobile Developer | [Github](https://github.com/Akora-IngDKB) / [LinkedIn](https://www.linkedin.com/in/kwesi-buabeng-debrah) |
+| Akpalu Larry | Data Collection and Annotation | [Github](https://github.com/Akora-IngDKB) / [LinkedIn](https://www.linkedin.com/in/larry-akpalu-5b3a1a119/) | <!-- TODO: Replace profile links -->
+| Kpene Godsway Edem | Documentation | [Github](https://github.com/kpegods96) / [LinkedIn](https://www.linkedin.com/in/godsway-edem-kpene-a6542711a/) |
+| Baidoo Mabel | Data Collection and Annotation | [Github](https://github.com/GeekiAdubea) / [LinkedIn](https://www.linkedin.com/in/mabel-adubea-baidoo/) |
+| Appau Roberta | UI/UX Designer | [Github](https://github.com/Akora-IngDKB) / [LinkedIn](https://www.linkedin.com/in/kwesi-buabeng-debrah) | <!-- TODO: Replace profile links --> 
 
 ## References
 HANDS ON mathemathics for deep learning algorithms -Packt publishing,
