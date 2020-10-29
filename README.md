@@ -40,12 +40,12 @@
 ###  Testing_final_notebo0k - https://colab.research.google.com/drive/1IuMvh0sCHniIwgHHNCUNXeH3SWuscEp0?usp=sharing
 
 ## Datasets used -
-	###  Primary:Esc-50 dataset:-https://github.com/karoldvl/ESC-50/archive/master.zip 
-	###  Secondary dataset for sampled audio for testing purposes:-https://research.google.com/audioset/
+	 Primary:Esc-50 dataset:-https://github.com/karoldvl/ESC-50/archive/master.zip 
+	 Secondary dataset for sampled audio for testing purposes:-https://research.google.com/audioset/
 
 ## Datasets (2)variants generated  -
-	###  i-Esc-50 waveplot/amplitude portfolio dataset
-	###  ii-ESC-50 MelSpectogram portfolio dataset
+	 i-Esc-50 waveplot/amplitude portfolio dataset
+	 ii-ESC-50 MelSpectogram portfolio dataset
 
 # This Repo contains five notebooks:
 
