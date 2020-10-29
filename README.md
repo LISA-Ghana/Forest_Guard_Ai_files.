@@ -1,15 +1,22 @@
 # AICommons - AI4Good Competition 
 ## Edge-Based Early Detection and Alerting Systems for Forest Guards - Team Lisa
 
-<hr>
 
 #### Content
 
-[Repository Tree](#repo-tree) | [Datasets Used](#datasets-used) | [Datasets Generated](#datasets-generated) | [Notebooks](#notebooks) | [Bottleneck Features](#bottleneck-features) | [Models](#models) | [Mobile App Client](#mobile-app-client) | [Team Members](#team-members) | [References](#references)
+1. [Repository Tree](#repo-tree)
+2. [Datasets Used](#datasets-used)
+3. [Datasets Generated](#datasets-generated)
+4. [Notebooks](#notebooks)
+5. [Bottleneck Features](#bottleneck-features)
+6. [Models](#models)
+7. [Mobile App Client](#mobile-app-client)
+8. [Team Members](#team-members)
+9. [References](#references)
 
 <hr>
 
-## Repo Tree
+## Repository Tree
 
 	
 	├───apk
@@ -107,7 +114,7 @@ We provide a converted/optimized TFLite format as well as an h5 Keras format of 
 There is an inference pipeline script at the end of the notebook to enable one test the model on their audio files.
 
 ## Mobile App Client
-The android apk can be found in the `apk/forest_guard_client.apk` folder. You can click [here](https://github.com/LISA-Ghana/forest_guard_ai/raw/master/apk/forest_guard_client.apk) to download.  
+The android apk can be found in the `apk/forest_guard_client.apk` folder. You can click [here](https://play.google.com/store/apps/details?id=org.lisa_ghana.forest_guard) to download from Play Store.  
 After installing the app, log in with `AgentID: 1234` and `Forest ID: 1`.  
 When the prediction is sent to the database, deployed cloud functions trigger notifications for Human/Illegal (Chainsaw, etc) activity.
 
@@ -118,8 +125,8 @@ When the prediction is sent to the database, deployed cloud functions trigger no
 | Appau Ernest (Lead) | AI Model Development/Deployment/I-IOT | [Github](https://github.com/kappernie) / [LinkedIn](https://www.linkedin.com/in/appauernestkofimensah/) |  
 | Debrah Kwesi Buabeng | Mobile Developer | [Github](https://github.com/Akora-IngDKB) / [LinkedIn](https://www.linkedin.com/in/kwesi-buabeng-debrah) |  
 | Akpalu Larry | Data Collection and Annotation | [Github](https://github.com/larry2310) / [LinkedIn](https://www.linkedin.com/in/larry-akpalu-5b3a1a119/) |  
-| Kpene Godsway Edem | Documentation | [Github](https://github.com/kpegods96) / [LinkedIn](https://www.linkedin.com/in/godsway-edem-kpene-a6542711a/) |  
 | Baidoo Mabel | Data Collection and Annotation | [Github](https://github.com/GeekiAdubea) / [LinkedIn](https://www.linkedin.com/in/mabel-adubea-baidoo/) |  
+| Kpene Godsway Edem | Documentation | [Github](https://github.com/kpegods96) / [LinkedIn](https://www.linkedin.com/in/godsway-edem-kpene-a6542711a/) |  
 | Appau Roberta | UI/UX Designer | N/A |  
 <br>
 
