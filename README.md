@@ -1,6 +1,33 @@
 # Aicommons Ai4good competition by submission by team Lisa
 # Project Write-Up
 
+## Repo Tree
+
+Forest_Guard_Ai files
+	
+
+	├───labels_and_classes-csv
+		├───ESC-50_Mel-Spectogram_dataset_Meta_data.csv
+		├───ESC-50_WavePlot_dataset_Meta_data.csv
+		└───labels_and_target_classes(ESC50).csv
+	├───Models
+		├───ForestAI.tflite
+		└───illegal_logging_classifier_model.h5
+	├───Notebooks
+		├───Dataset_exploration_and__Generation_by_Author_Appau_Ernest.ipynb
+		├───iteration1_Building_a_CNN_model_to_classify_audio_events_from_the_ESC_50_WavePlot_dataset.ipynb
+		└───Iteration2_Building_a_CNN_model_to_classify_audio_events_from_the_ESC_50_MelSpectogram_dataset.ipynb
+
+	├───Pickle files
+		├───test_data.pkl
+		├───test_labels.pkl
+		├───train_labels.pkl
+		├───train_data.pkl
+		├───validation_labels.pkl
+		└───validation_data.pkl
+
+	└───final_iteration(Best_performing).ipynb
+
 ## Datasets used -
 ###  Primary:Esc-50 dataset:-https://github.com/karoldvl/ESC-50/archive/master.zip 
 ## #  Secondary dataset for sampled audio for testing purposes:-https://research.google.com/audioset/
@@ -63,32 +90,7 @@ The bottle neck features extracted from the vgg16 model include :
 ### 1-illegal_logging_classifier_model.h5(Keras variant)
 ### 2-ForestAI.tflite (tensorflowlite variant)
 
-## Repo Tree
 
-Forest_Guard_Ai files
-	
-
-	├───labels_and_classes-csv
-		├───ESC-50_Mel-Spectogram_dataset_Meta_data.csv
-		├───ESC-50_WavePlot_dataset_Meta_data.csv
-		└───labels_and_target_classes(ESC50).csv
-	├───Models
-		├───ForestAI.tflite
-		└───illegal_logging_classifier_model.h5
-	├───Notebooks
-		├───Dataset_exploration_and__Generation_by_Author_Appau_Ernest.ipynb
-		├───iteration1_Building_a_CNN_model_to_classify_audio_events_from_the_ESC_50_WavePlot_dataset.ipynb
-		└───Iteration2_Building_a_CNN_model_to_classify_audio_events_from_the_ESC_50_MelSpectogram_dataset.ipynb
-
-	├───Pickle files
-		├───test_data.pkl
-		├───test_labels.pkl
-		├───train_labels.pkl
-		├───train_data.pkl
-		├───validation_labels.pkl
-		└───validation_data.pkl
-
-	└───final_iteration(Best_performing).ipynb
 
 we provide a converted/optimized tensorflowlite format of our model as well as a h5 format of our model 
 with a inference pipline script at the end of the notebook to enable one test the model on their audio files 
