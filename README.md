@@ -11,8 +11,9 @@
 5. [Bottleneck Features](#bottleneck-features)
 6. [Models](#models)
 7. [Mobile App Client](#mobile-app-client)
-8. [Team Members](#team-members)
-9. [References](#references)
+8. [Video Demo](#video-demo)
+9. [Team Members](#team-members)
+10. [References](#references)
 
 <hr>
 
@@ -116,7 +117,13 @@ There is an inference pipeline script at the end of the notebook to enable one t
 ## Mobile App Client
 The android apk can be found in the `apk/forest_guard_client.apk` folder. You can click [here](https://play.google.com/store/apps/details?id=org.lisa_ghana.forest_guard) to download from Play Store.  
 After installing the app, log in with `AgentID: 1234` and `Forest ID: 1`.  
-When the prediction is sent to the database, deployed cloud functions trigger notifications for Human/Illegal (Chainsaw, etc) activity.
+When the prediction is sent to the database, deployed cloud functions trigger notifications for Human/Illegal (Chainsaw, etc) activity.  
+You can check the [source code](https://github.com/LISA-Ghana/forest_guard_mobile) of the mobile app.
+
+## Video Demo
+Click on the image below to play the video demo.  
+
+[![Alt text](https://img.youtube.com/vi/bRywQ7Y4CkY/0.jpg)](https://www.youtube.com/watch?v=bRywQ7Y4CkY)
 
 ## Team Members  
   
